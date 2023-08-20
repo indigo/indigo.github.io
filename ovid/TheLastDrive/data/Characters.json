@@ -1,0 +1,844 @@
+{
+    "victoria": {
+        "startLocation": "cottage",
+        "dialogs": {
+            "victoria_q01": {
+                "answer": "victoria_a01",
+                "requirements": [
+                    {
+                        "type": "hasItem",
+                        "param": [
+                            "handkerchief"
+                        ]
+                    }
+                ]
+            },
+            "victoria_q02": {
+                "answer": "victoria_a02",
+                "requirements": [
+                    {
+                        "type": "hasDialog",
+                        "param": [
+                            "maggie_q03"
+                        ]
+                    }
+                ],
+                "actions": [
+                    {
+                        "type": "message",
+                        "param": [
+                            "patrick",
+                            "patrick_m01"
+                        ]
+                    }
+                ]
+            },
+            "victoria_q03": {
+                "answer": "victoria_a03",
+                "requirements": [
+                    {
+                        "type": "hasDialog",
+                        "param": [
+                            "victoria_q02"
+                        ]
+                    }
+                ],
+                "actions": [
+                    {
+                        "type": "getItem",
+                        "param": [
+                            "vintageKey"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "alexander": {
+        "startLocation": "lobby",
+        "dialogs": {
+            "mr_thompson_q01": {
+                "answer": "mr_thompson_a01",
+                "requirements": [
+                    {
+                        "type": "hasItem",
+                        "param": [
+                            "correspondence"
+                        ]
+                    }
+                ]
+            },
+            "mr_thompson_q02": {
+                "answer": "mr_thompson_a02",
+                "requirements": [
+                    {
+                        "type": "hasDialog",
+                        "param": [
+                            "mr_thompson_q01"
+                        ]
+                    }
+                ]
+            },
+            "mr_thompson_q03": {
+                "answer": "mr_thompson_a03",
+                "requirements": [
+                    {
+                        "type": "hasDialog",
+                        "param": [
+                            "mr_thompson_q02"
+                        ]
+                    }
+                ]
+            },
+            "mr_thompson_q04": {
+                "answer": "mr_thompson_a04",
+                "requirements": [
+                    {
+                        "type": "hasDialog",
+                        "param": [
+                            "mr_thompson_q03"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "alfred": {
+        "startLocation": "shed",
+        "dialogs": {
+            "alfred_q01": {
+                "answer": "alfred_a01",
+                "requirements": [
+                    {
+                        "type": "hasItem",
+                        "param": [
+                            "forensicReport"
+                        ]
+                    }
+                ]
+            },
+            "alfred_q02": {
+                "answer": "alfred_a02",
+                "requirements": [
+                    {
+                        "type": "hasDialog",
+                        "param": [
+                            "alfred_q01"
+                        ]
+                    }
+                ]
+            },
+            "alfred_q03": {
+                "answer": "alfred_a03",
+                "requirements": [
+                    {
+                        "type": "hasDialog",
+                        "param": [
+                            "alfred_q02"
+                        ]
+                    }
+                ]
+            },
+            "alfred_q04": {
+                "answer": "alfred_a04",
+                "requirements": [
+                    {
+                        "type": "hasDialog",
+                        "param": [
+                            "alfred_q03"
+                        ]
+                    }
+                ]
+            },
+            "alfred_q05": {
+                "answer": "alfred_a05",
+                "requirements": [
+                    {
+                        "type": "hasDialog",
+                        "param": [
+                            "alfred_q04"
+                        ]
+                    }
+                ]
+            },
+            "alfred_q06": {
+                "answer": "alfred_a06",
+                "requirements": [
+                    {
+                        "type": "hasItem",
+                        "param": [
+                            "photo"
+                        ]
+                    }
+                ]
+            },
+            "alfred_q07": {
+                "answer": "alfred_a07",
+                "requirements": [
+                    {
+                        "type": "hasDialog",
+                        "param": [
+                            "alfred_q06"
+                        ]
+                    }
+                ]
+            },
+            "alfred_q08": {
+                "answer": "alfred_a08",
+                "requirements": [
+                    {
+                        "type": "hasItem",
+                        "param": [
+                            "newspaper"
+                        ]
+                    }
+                ]
+            },
+            "alfred_q09": {
+                "answer": "alfred_a09",
+                "requirements": [
+                    {
+                        "type": "hasDialog",
+                        "param": [
+                            "alfred_q08"
+                        ]
+                    }
+                ]
+            },
+            "alfred_q10": {
+                "answer": "alfred_a10",
+                "requirements": [
+                    {
+                        "type": "hasDialog",
+                        "param": [
+                            "alfred_q09"
+                        ]
+                    }
+                ]
+            },
+            "alfred_q11": {
+                "answer": "alfred_a11",
+                "requirements": [
+                    {
+                        "type": "hasDialog",
+                        "param": [
+                            "alfred_q10"
+                        ]
+                    }
+                ]
+            },
+            "alfred_q12": {
+                "answer": "alfred_a12",
+                "requirements": [
+                    {
+                        "type": "hasDialog",
+                        "param": [
+                            "alfred_q11"
+                        ]
+                    }
+                ]
+            },
+            "alfred_q13": {
+                "answer": "alfred_a13",
+                "requirements": [
+                    {
+                        "type": "hasDialog",
+                        "param": [
+                            "alfred_q12"
+                        ]
+                    }
+                ]
+            },
+            "alfred_q14": {
+                "answer": "alfred_a14",
+                "requirements": [
+                    {
+                        "type": "hasDialog",
+                        "param": [
+                            "alfred_q13"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "lisa": {
+        "startLocation": "lisaOffice",
+        "dialogs": {
+            "lisa_q01": {
+                "answer": "lisa_a01"
+            },
+            "lisa_q02": {
+                "answer": "lisa_a02",
+                "requirements": [
+                    {
+                        "type": "hasDialog",
+                        "param": [
+                            "lisa_q01"
+                        ]
+                    }
+                ]
+            },
+            "lisa_q03": {
+                "answer": "lisa_a03",
+                "requirements": [
+                    {
+                        "type": "hasDialog",
+                        "param": [
+                            "lisa_q02"
+                        ]
+                    }
+                ]
+            },
+            "lisa_q04": {
+                "answer": "lisa_a04",
+                "requirements": [
+                    {
+                        "type": "hasDialog",
+                        "param": [
+                            "lisa_q03"
+                        ]
+                    }
+                ],
+                "actions": [
+                    {
+                        "type": "moveCharacter",
+                        "param": [
+                            "lisa",
+                            "cafe"
+                        ]
+                    }
+                ]
+            },
+            "lisa_q05": {
+                "answer": "lisa_a05"
+            },
+            "lisa_q06": {
+                "answer": "lisa_a06",
+                "requirements": [
+                    {
+                        "type": "hasDialog",
+                        "param": [
+                            "lisa_q05"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "daniel": {
+        "startLocation": "insideHospital",
+        "dialogs": {
+            "daniel_q01": {
+                "answer": "daniel_a01"
+            },
+            "daniel_q02": {
+                "answer": "daniel_a02",
+                "requirements": [
+                    {
+                        "type": "hasDialog",
+                        "param": [
+                            "daniel_q01"
+                        ]
+                    }
+                ]
+            },
+            "daniel_q03": {
+                "answer": "daniel_a03",
+                "requirements": [
+                    {
+                        "type": "hasDialog",
+                        "param": [
+                            "daniel_q02"
+                        ]
+                    }
+                ]
+            },
+            "daniel_q04": {
+                "answer": "daniel_a04",
+                "requirements": [
+                    {
+                        "type": "hasDialog",
+                        "param": [
+                            "daniel_q03"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "sarah": {
+        "startLocation": "quarters",
+        "dialogs": {
+            "sarah_q01": {
+                "answer": "sarah_a01"
+            },
+            "sarah_q02": {
+                "answer": "sarah_a02",
+                "requirements": [
+                    {
+                        "type": "hasDialog",
+                        "param": [
+                            "sarah_q01"
+                        ]
+                    }
+                ]
+            },
+            "sarah_q03": {
+                "answer": "sarah_a03",
+                "requirements": [
+                    {
+                        "type": "hasDialog",
+                        "param": [
+                            "sarah_q02"
+                        ]
+                    }
+                ]
+            },
+            "sarah_q04": {
+                "answer": "sarah_a04",
+                "requirements": [
+                    {
+                        "type": "hasDialog",
+                        "param": [
+                            "sarah_q03"
+                        ]
+                    }
+                ]
+            },
+            "sarah_q05": {
+                "answer": "sarah_a05",
+                "requirements": [
+                    {
+                        "type": "hasDialog",
+                        "param": [
+                            "sarah_q04"
+                        ]
+                    }
+                ]
+            },
+            "sarah_q06": {
+                "answer": "sarah_a06",
+                "requirements": [
+                    {
+                        "type": "hasDialog",
+                        "param": [
+                            "sarah_q05"
+                        ]
+                    }
+                ]
+            },
+            "sarah_q07": {
+                "answer": "sarah_a07",
+                "requirements": [
+                    {
+                        "type": "hasDialog",
+                        "param": [
+                            "sarah_q06"
+                        ]
+                    }
+                ]
+            },
+            "sarah_q08": {
+                "answer": "sarah_a08",
+                "requirements": [
+                    {
+                        "type": "hasDialog",
+                        "param": [
+                            "sarah_q07"
+                        ]
+                    }
+                ]
+            },
+            "sarah_q09": {
+                "answer": "sarah_a09"
+            },
+            "sarah_q10": {
+                "answer": "sarah_a10",
+                "actions": [
+                    {
+                        "type": "moveCharacter",
+                        "param": [
+                            "alfred",
+                            "lobby"
+                        ]
+                    }
+                ]
+            },
+            "sarah_q11": {
+                "answer": "sarah_a11",
+                "requirements": [
+                    {
+                        "type": "hasItem",
+                        "param": [
+                            "footage"
+                        ]
+                    }
+                ]
+            },
+            "sarah_q12": {
+                "answer": "sarah_a12",
+                "requirements": [
+                    {
+                        "type": "hasDialog",
+                        "param": [
+                            "sarah_q11"
+                        ]
+                    }
+                ]
+            },
+            "sarah_q13": {
+                "answer": "sarah_a13",
+                "requirements": [
+                    {
+                        "type": "hasDialog",
+                        "param": [
+                            "sarah_q12"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "maggie": {
+        "startLocation": "cafe",
+        "dialogs": {
+            "maggie_q01": {
+                "answer": "maggie_a01"
+            },
+            "maggie_q02": {
+                "answer": "maggie_a02",
+                "requirements": [
+                    {
+                        "type": "hasDialog",
+                        "param": [
+                            "maggie_q01"
+                        ]
+                    }
+                ]
+            },
+            "maggie_q03": {
+                "answer": "maggie_a03",
+                "requirements": [
+                    {
+                        "type": "hasDialog",
+                        "param": [
+                            "maggie_q02"
+                        ]
+                    }
+                ]
+            },
+            "maggie_q05": {
+                "answer": "maggie_a05",
+                "requirements": [
+                    {
+                        "type": "hasItem",
+                        "param": [
+                            "hiddenNote"
+                        ]
+                    }
+                ]
+            },
+            "maggie_q06": {
+                "answer": "maggie_a06",
+                "requirements": [
+                    {
+                        "type": "hasDialog",
+                        "param": [
+                            "maggie_q05"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "sam": {
+        "startLocation": "cafe",
+        "dialogs": {
+            "sam_q01": {
+                "answer": "sam_a01"
+            },
+            "sam_q02": {
+                "answer": "sam_a02",
+                "requirements": [
+                    {
+                        "type": "hasDialog",
+                        "param": [
+                            "sam_q01"
+                        ]
+                    }
+                ]
+            },
+            "sam_q03": {
+                "answer": "sam_a03",
+                "requirements": [
+                    {
+                        "type": "hasDialog",
+                        "param": [
+                            "sam_q02"
+                        ]
+                    }
+                ]
+            },
+            "sam_q04": {
+                "answer": "sam_a04",
+                "requirements": [
+                    {
+                        "type": "hasDialog",
+                        "param": [
+                            "sam_q03"
+                        ]
+                    }
+                ]
+            },
+            "sam_q05": {
+                "answer": "sam_a05",
+                "requirements": [
+                    {
+                        "type": "hasDialog",
+                        "param": [
+                            "sam_q04"
+                        ]
+                    }
+                ],
+                "actions": [
+                    {
+                        "type": "message",
+                        "param": [
+                            "charlotte",
+                            "charlotte_m01"
+                        ]
+                    }
+                ]
+            },
+            "sam_q06": {
+                "answer": "sam_a06",
+                "requirements": [
+                    {
+                        "type": "hasItem",
+                        "param": [
+                            "photo"
+                        ]
+                    }
+                ]
+            },
+            "sam_q07": {
+                "answer": "sam_a07",
+                "requirements": [
+                    {
+                        "type": "hasDialog",
+                        "param": [
+                            "sam_q06"
+                        ]
+                    }
+                ]
+            },
+            "sam_q08": {
+                "answer": "sam_a08",
+                "requirements": [
+                    {
+                        "type": "hasItem",
+                        "param": [
+                            "footage"
+                        ]
+                    }
+                ]
+            },
+            "sam_q09": {
+                "answer": "sam_a09",
+                "requirements": [
+                    {
+                        "type": "hasDialog",
+                        "param": [
+                            "sam_q08"
+                        ]
+                    }
+                ]
+            },
+            "sam_q10": {
+                "answer": "sam_a10",
+                "requirements": [
+                    {
+                        "type": "hasDialog",
+                        "param": [
+                            "sam_q09"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "patrick": {
+        "startLocation": "police",
+        "dialogs": {
+            "patrick_q01": {
+                "answer": "patrick_a01"
+            },
+            "patrick_q02": {
+                "answer": "patrick_a02",
+                "requirements": [
+                    {
+                        "type": "hasDialog",
+                        "param": [
+                            "patrick_q01"
+                        ]
+                    }
+                ]
+            },
+            "patrick_q03": {
+                "answer": "patrick_a03",
+                "requirements": [
+                    {
+                        "type": "hasItem",
+                        "param": [
+                            "breakPedalAnalysed"
+                        ]
+                    }
+                ]
+            },
+            "patrick_q04": {
+                "answer": "patrick_a04",
+                "requirements": [
+                    {
+                        "type": "hasDialog",
+                        "param": [
+                            "patrick_q03"
+                        ]
+                    }
+                ]
+            },
+            "patrick_q05": {
+                "answer": "patrick_a05",
+                "requirements": [
+                    {
+                        "type": "hasDialog",
+                        "param": [
+                            "patrick_q04"
+                        ]
+                    }
+                ]
+            },
+            "patrick_q06": {
+                "answer": "patrick_a06",
+                "requirements": [
+                    {
+                        "type": "hasDialog",
+                        "param": [
+                            "patrick_q05"
+                        ]
+                    }
+                ]
+            },
+            "patrick_q07": {
+                "answer": "patrick_a07",
+                "requirements": [
+                    {
+                        "type": "hasDialog",
+                        "param": [
+                            "patrick_q06"
+                        ]
+                    }
+                ],
+                "actions": [
+                    {
+                        "type": "getItem",
+                        "param": [
+                            "forensicReport"
+                        ]
+                    }
+                ]
+            },
+            "patrick_q08": {
+                "answer": "patrick_a08",
+                "requirements": [
+                    {
+                        "type": "hasDialog",
+                        "param": [
+                            "sam_q06"
+                        ]
+                    }
+                ]
+            },
+            "patrick_q09": {
+                "answer": "patrick_a09",
+                "requirements": [
+                    {
+                        "type": "hasDialog",
+                        "param": [
+                            "patrick_q08"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "charlotte": {
+        "startLocation": "insideHospital",
+        "dialogs": {
+            "charlotte_q01": {
+                "answer": "charlotte_a01"
+            },
+            "charlotte_q02": {
+                "answer": "charlotte_a02",
+                "requirements": [
+                    {
+                        "type": "hasDialog",
+                        "param": [
+                            "charlotte_q01"
+                        ]
+                    }
+                ]
+            },
+            "charlotte_q03": {
+                "answer": "charlotte_a03",
+                "requirements": [
+                    {
+                        "type": "hasDialog",
+                        "param": [
+                            "charlotte_q02"
+                        ]
+                    },
+                    {
+                        "type": "hasDialog",
+                        "param": [
+                            "patrick_q02"
+                        ]
+                    }
+                ]
+            },
+            "charlotte_q04": {
+                "answer": "charlotte_a04",
+                "requirements": [
+                    {
+                        "type": "hasDialog",
+                        "param": [
+                            "charlotte_q03"
+                        ]
+                    }
+                ]
+            },
+            "charlotte_q05": {
+                "answer": "charlotte_a05",
+                "requirements": [
+                    {
+                        "type": "hasDialog",
+                        "param": [
+                            "sam_q04"
+                        ]
+                    }
+                ]
+            },
+            "charlotte_q06": {
+                "answer": "charlotte_a06",
+                "requirements": [
+                    {
+                        "type": "hasDialog",
+                        "param": [
+                            "charlotte_q05"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

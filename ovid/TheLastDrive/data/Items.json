@@ -1,0 +1,166 @@
+{
+    "handkerchief": {
+        "onClick": {
+            "actions": [
+                {
+                    "type": "getItem",
+                    "param": [
+                        "handkerchief"
+                    ]
+                }
+            ]
+        }
+    },
+    "kit": {
+        "onUsed": {
+            "requirements": [
+                {
+                    "type": "usedOnItem",
+                    "param": [
+                        "breakPedal"
+                    ]
+                }
+            ],
+            "actions": [
+                {
+                    "type": "getItem",
+                    "param": [
+                        "breakPedalAnalysed"
+                    ]
+                },
+                {
+                    "type": "removeItem",
+                    "param": [
+                        "breakPedal"
+                    ]
+                },
+                {
+                    "type": "removeItem",
+                    "param": [
+                        "kit"
+                    ]
+                }
+            ]
+        }
+    },
+    "breakPedal": {},
+    "breakPedalAnalysed": {},
+    "forensicReport": {},
+    "hiddenNote": {},
+    "drink": {
+        "onClick": {
+            "actions": [
+                {
+                    "type": "getItem",
+                    "param": [
+                        "drink"
+                    ]
+                }
+            ]
+        },
+        "onUsed": {
+            "requirements": [
+                {
+                    "type": "usedOnItem",
+                    "param": [
+                        "chair"
+                    ]
+                }
+            ],
+            "actions": [
+                {
+                    "type": "moveCharacter",
+                    "param": [
+                        "sarah",
+                        "lobby"
+                    ]
+                },
+                {
+                    "type": "setOnLocation",
+                    "param": [
+                        "drink",
+                        "lobby"
+                    ]
+                },
+                {
+                    "type": "setOnLocation",
+                    "param": [
+                        "spilled",
+                        "lobby"
+                    ]
+                }
+            ]
+        }
+    },
+    "chair": {},
+    "spilled": {},
+    "vintageKey": {
+        "onUsed": {
+            "requirements": [
+                {
+                    "type": "usedOnItem",
+                    "param": [
+                        "doorLock"
+                    ]
+                }
+            ],
+            "actions": [
+                {
+                    "type": "unlock",
+                    "param": [
+                        "corridor",
+                        "sinclairOffice"
+                    ]
+                }
+            ]
+        }
+    },
+    "doorLock": {},
+    "correspondence": {
+        "onClick": {
+            "actions": [
+                {
+                    "type": "getItem",
+                    "param": [
+                        "correspondence"
+                    ]
+                }
+            ]
+        }
+    },
+    "photo": {},
+    "box": {},
+    "secretKey": {
+        "onUsed": {
+            "requirements": [
+                {
+                    "type": "usedOnItem",
+                    "param": [
+                        "box"
+                    ]
+                }
+            ],
+            "actions": [
+                {
+                    "type": "getItem",
+                    "param": [
+                        "photo"
+                    ]
+                }
+            ]
+        }
+    },
+    "footage": {},
+    "newspaper": {
+        "onClick": {
+            "actions": [
+                {
+                    "type": "getItem",
+                    "param": [
+                        "newspaper"
+                    ]
+                }
+            ]
+        }
+    }
+}

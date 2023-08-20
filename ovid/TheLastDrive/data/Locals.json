@@ -1,0 +1,494 @@
+{
+    "characters": {
+        "victoria": {
+            "text_US": {
+                "name": "Victoria Sinclair",
+                "description": "An elegant woman with blonde hair, known for her fashionable attire. She is Mr. Sinclair's wife and becomes a person of interest due to her affair with Mr. Sinclair's business partner, Mr. Thompson.",
+                "dialogs": {
+                    "victoria_q01": "Victoria, I noticed you have an array of beautiful handkerchiefs. However, there seems to be one missing from your collection. Have you lost a handkerchief recently?",
+                    "victoria_a01": "Indeed, Olivia. It's quite perplexing, but I have been missing one for a few days now. A very dear one too.",
+                    "victoria_q02": "Victoria, there are some rumors about an affair with Alexander. Is there any truth in it?",
+                    "victoria_a02": "Yes, we did have an affair, but it's in the past. Alexander's accident though, it's strange. He was always such a cautious driver... I think someone might have tampered with his car.",
+                    "victoria_q03": "That's a troubling thought, Victoria. I'll look into it.",
+                    "victoria_a03": "I don't know if that can help you, but I have a copy of my husband's office key. You might find something there."
+                },
+                "messages": {}
+            }
+        },
+        "alexander": {
+            "text_US": {
+                "name": "Mr. Alexander Thompson",
+                "description": "A sharp-dressed man with a charismatic smile and a well-groomed beard. He is Mr. Sinclair's business partner and becomes a suspect due to his affair with Mrs. Sinclair and potential business disputes with Mr. Sinclair.",
+                "dialogs": {
+                    "mr_thompson_q01": "Mr. Thompson, I've heard about your dispute with Mr. Sinclair. Could you elaborate?",
+                    "mr_thompson_a01": "Yes, we had disagreements, mainly business ones. But that doesn't make me a suspect in his accident.",
+                    "mr_thompson_q02": "Understandable. I also learned about your affair with Victoria. Can you explain that?",
+                    "mr_thompson_a02": "Yes, that's true. We were involved, but we ended things amicably. It had nothing to do with Sinclair's accident.",
+                    "mr_thompson_q03": "Can you provide any proof to back up your claims?",
+                    "mr_thompson_a03": "I don't have any proof at the moment, but I assure you I'm telling the truth. You'll have to believe me.",
+                    "mr_thompson_q04": "I hope for your sake that's true, Mr. Thompson. I'll be investigating further.",
+                    "mr_thompson_a04": "I understand, detective. I have nothing to hide."
+                },
+                "messages": {}
+            }
+        },
+        "alfred": {
+            "text_US": {
+                "name": "Mr. Alfred Anderson",
+                "description": "A middle-aged butler with a stoic expression and neatly combed silver hair. He is Mr. Sinclair's butler and becomes a suspect due his access to the car, weto the potential threat to his younger brother's health if Mr. Sinclair's donations to the hospital stop.",
+                "dialogs": {
+                    "alfred_q01": "Alfred, I need to have a word with you.",
+                    "alfred_a01": "Of course, ma'am.",
+                    "alfred_q02": "I've examined the brake pedal of Mr. Sinclair's car. The Forensic Report suggests there may have been tampering. Do you know anything about this?",
+                    "alfred_a02": "Tampering? No, ma'am, I would never! I've been maintaining Mr. Sinclair's cars for years. I had no reason to harm him.",
+                    "alfred_q03": "Did anyone else have access to the toolkit you use?",
+                    "alfred_a03": "Only me, ma'am. And Mr. Sinclair, of course. But he never had much interest in the mechanics.",
+                    "alfred_q04": "I see. And did you notice anything unusual recently?",
+                    "alfred_a04": "Now that you mention it, I overheard a conversation between Mr. Sinclair and Lisa. They seemed to be having a heated argument.",
+                    "alfred_q05": "Do you know what the argument was about?",
+                    "alfred_a05": "I'm afraid not, ma'am. I didn't think it was my place to ask.",
+                    "alfred_q06": "Alfred, I have this photo of two children. Do you recognize them?",
+                    "alfred_a06": "Can't say that I do, detective. Should I?",
+                    "alfred_q07": "That's what I'm trying to figure out, Alfred. Thanks anyway.",
+                    "alfred_a07": "Sorry I couldn't be of more help.",
+                    "alfred_q08": "Alfred, I need to talk to you.",
+                    "alfred_a08": "Of course, ma'am. What can I help you with?",
+                    "alfred_q09": "I've discovered something quite unsettling. Can you explain why you were near Mr. Sinclair's car the night before the accident?",
+                    "alfred_a09": "I... I don't know what you're talking about.",
+                    "alfred_q10": "I have CCTV footage that says otherwise, Alfred. Plus, the folks here seem to think it's you in the footage.",
+                    "alfred_a10": "...",
+                    "alfred_q11": "Now, look at this photo. Sam recognized the children in it as you and your brother. Is that true?",
+                    "alfred_a11": "That's an old memory... Yes, that's Daniel and me.",
+                    "alfred_q12": "So you're telling me that the same Daniel who was heavily supported by Mr. Sinclair's charity is your brother?",
+                    "alfred_a12": "Yes, it's true. But it doesn't mean I tampered with Mr. Sinclair's car!",
+                    "alfred_q13": "But you had a motive, Alfred. I found an article that suggests Mr. Sinclair was considering stopping the donations. You were afraid for your brother, weren't you?",
+                    "alfred_a13": "I... I... I didn't want to hurt anyone. I just... wanted to scare him.",
+                    "alfred_q14": "Alfred, you should've spoken with him. You didn't have to resort to this.",
+                    "alfred_a14": "I know... I regret it."
+                },
+                "messages": {}
+            }
+        },
+        "lisa": {
+            "text_US": {
+                "name": "Lisa Collins",
+                "description": "A young and professional-looking woman with glasses and a serious demeanor. She is Mrs. Sinclair's personal assistant and becomes a person of interest due to her secret business venture.",
+                "dialogs": {
+                    "lisa_q01": "Lisa, may I ask you a few questions?",
+                    "lisa_a01": "Of course, Detective. What do you need to know?",
+                    "lisa_q02": "Can you tell me about your whereabouts on the night of the incident?",
+                    "lisa_a02": "I was at a concert that night. It was wonderful, the band was in top form.",
+                    "lisa_q03": "Do you have anything that could verify your alibi?",
+                    "lisa_a03": "Why, yes. I do have my concert ticket and a souvenir I picked up at the venue. They are in my room, would you like to see them?",
+                    "lisa_q04": "That would be very helpful, thank you Lisa.",
+                    "lisa_a04": "I'll be right back, Detective. Please make yourself at home in my office while I'm gone.",
+                    "lisa_q05": "I found a note in your office, Lisa. It mentions a secret business venture with Mrs. Sinclair. Can you explain?",
+                    "lisa_a05": "Yes, that's correct. We were planning to start a business together. It wasn't anything illegal, just a way for us to be more independent. We didn't want Mr. Sinclair involved because he had too much on his plate already.",
+                    "lisa_q06": "That doesn't mean you had no reason to harm Mr. Sinclair. His death could've given you complete control over his assets.",
+                    "lisa_a06": "It's true that our business might've benefited from Mr. Sinclair's absence. But I didn't have anything to do with his death. I was at a concert the night it happened. Here's my ticket as proof."
+                },
+                "messages": {}
+            }
+        },
+        "daniel": {
+            "text_US": {
+                "name": "Daniel Reynolds",
+                "description": "An ailing young man with a fragile appearance. He is Alfred's younger brother and depends on Mr. Sinclair's donations to the hospital for his treatment, making him a potential motivation for Alfred's actions.",
+                "dialogs": {
+                    "daniel_q01": "Good afternoon, Mr. Reynolds. I'm Detective Olivia Sullivan, investigating Mr. Sinclair's accident. May I ask you a few questions?",
+                    "daniel_a01": "Oh, hello Detective. I heard about Mr. Sinclair... such a tragedy. He was a very kind man.",
+                    "daniel_q02": "Yes, it's quite unfortunate. I was told he was helping with your medical treatment.",
+                    "daniel_a02": "Yes, he was. Mr. Sinclair was incredibly generous, he funded my treatment when no one else would. I owe him a lot.",
+                    "daniel_q03": "I see. Did you have any direct interactions with him?",
+                    "daniel_a03": "Not many. Alfred, his butler, would usually visit on his behalf. But whenever Mr. Sinclair did visit, he was always kind.",
+                    "daniel_q04": "Thank you for sharing that, Mr. Reynolds. I wish you all the best with your recovery.",
+                    "daniel_a04": "Thank you, Detective Sullivan. If there's anything else I can help with, do let me know."
+                },
+                "messages": {}
+            }
+        },
+        "sarah": {
+            "text_US": {
+                "name": "Sarah Johnson",
+                "description": "A middle-aged housekeeper with a no-nonsense attitude and a friendly smile. She is the Sinclair family's housekeeper and could potentially provide key observations or information about the events surrounding the murder.",
+                "dialogs": {
+                    "sarah_q01": "Good day, Mrs. Johnson. I'm Detective Olivia Sullivan. I'm here regarding Mr. Sinclair's incident.",
+                    "sarah_a01": "Oh, Detective Sullivan, we've been expecting you. Such a tragedy, Mr. Sinclair...",
+                    "sarah_q02": "Yes, it's quite unfortunate. I understand you were in the mansion the day of the incident?",
+                    "sarah_a02": "Yes, Detective, but I didn't hear or see anything unusual. Just a regular day until we got the news...",
+                    "sarah_q03": "Were there any guests or unusual activities at the mansion?",
+                    "sarah_a03": "No, Detective. It was a quiet day. Mr. Sinclair had gone out for his usual drive. No guests.",
+                    "sarah_q04": "And you, Mrs. Johnson, where were you the night of the incident?",
+                    "sarah_a04": "I was out for dinner with Sam, the gentleman who often walks around the neighborhood. We have our dinner dates every Tuesday, and that day was no exception.",
+                    "sarah_q05": "Did you notice anything out of the ordinary about Mr. Sinclair's behavior that day?",
+                    "sarah_a05": "Well, Mr. Sinclair was in good spirits, as always. He seemed perfectly fine. Didn't notice anything unusual.",
+                    "sarah_q06": "Thank you, Mrs. Johnson. Your input is helpful. Please inform me if you remember anything else.",
+                    "sarah_a06": "Of course, Detective. I hope you find out what happened to Mr. Sinclair.",
+                    "sarah_q07": "Sarah, can you tell me where you were on the night of the incident?",
+                    "sarah_a07": "Yes, I was having dinner with Sam that night. He can confirm it.",
+                    "sarah_q08": "Sarah, can you verify Lisa's alibi? She said she was at a jazz concert the night of the incident.",
+                    "sarah_a08": "Yes, I remember that. She had been talking about it excitedly for weeks.",
+                    "sarah_q09": "Oh, I'm so sorry, I seem to have spilled my drink.",
+                    "sarah_a09": "Oh, don't worry, Miss. I'll ask Alfred to clean it up right away.",
+                    "sarah_q10": "Thank you, Sarah. I apologize for the inconvenience.",
+                    "sarah_a10": "It's no problem at all, accidents happen.",
+                    "sarah_q11": "I got my hands on some CCTV footage. Shows someone tinkering with Mr. Sinclair's car the night before the incident.",
+                    "sarah_a11": "Oh? May I see that?",
+                    "sarah_q12": "Certainly. Here, look at this figure right here. Can you identify them?",
+                    "sarah_a12": "That's... that's Alfred! He's been the Sinclair's butler for years.",
+                    "sarah_q13": "I suspected as much. Thank you for confirming.",
+                    "sarah_a13": "But why would Alfred do something like this? It doesn't make sense."
+                },
+                "messages": {}
+            }
+        },
+        "maggie": {
+            "text_US": {
+                "name": "Maggie",
+                "description": "A cheerful, chatty barista with a mop of curly hair always tucked beneath a colorful beanie. Known for his friendly demeanor and never-ending supply of neighborhood gossip",
+                "dialogs": {
+                    "maggie_q01": "Good afternoon, Maggie. I wanted to ask you about the relationship between Victoria Sinclair and Alexander Thompson.",
+                    "maggie_a01": "Oh, Olivia. Well, I did notice they seemed rather close. It could be just an innocent friendship, of course.",
+                    "maggie_q02": "What makes you say they were close?",
+                    "maggie_a02": "Well, their conversations, their interactions... It all felt a bit more than just friendly. And given how Alexander always had an eye for the ladies, I couldn't help but think...",
+                    "maggie_q03": "That they were having an affair?",
+                    "maggie_a03": "Yes, that's right. I may have mentioned it to a few folks. Didn't think it would become a topic for an investigation, though.",
+                    "maggie_q05": "I'm here to talk about Lisa Collins. She claimed she was at a concert with you the night before Mr. Sinclair's accident. Can you confirm this?",
+                    "maggie_a05": "Oh, yes. I remember. Lisa and I attended the concert together. We had a great time.",
+                    "maggie_q06": "And you're absolutely certain that Lisa was with you the entire evening?",
+                    "maggie_a06": "Yes, absolutely. We spent the whole evening together at the concert."
+                },
+                "messages": {}
+            }
+        },
+        "sam": {
+            "text_US": {
+                "name": "Sam",
+                "description": "A lively retiree with a pair of ever-watchful blue eyes, always hidden behind large, round spectacles. Known for his daily walks and unyielding curiosity about the neighborhood, Sam is a familiar face around the Nearby Café.",
+                "dialogs": {
+                    "sam_q01": "Hello there, are you Sam? I'm Detective Olivia Sullivan. I'm investigating the incident involving Mr. Sinclair.",
+                    "sam_a01": "Oh, yes. I've heard about that. Terrible thing. I didn't really know the man well, but he seemed nice enough.",
+                    "sam_q02": "I understand that you were having dinner with Sarah Johnson, the housekeeper at the Sinclair mansion, on the night of the incident?",
+                    "sam_a02": "That's right. We usually have dinner at the café on Tuesdays. It's a sort of tradition.",
+                    "sam_q03": "Around what time was this?",
+                    "sam_a03": "We meet around 7 PM and usually part ways by 9 PM. It was the same that night.",
+                    "sam_q04": "Anything unusual that you noticed about Sarah that night?",
+                    "sam_a04": "No, not at all. She seemed just as she always does. I was shocked when she told me about the incident.",
+                    "sam_q05": "All right, thank you for your cooperation, Sam. If you remember anything else, please let me know.",
+                    "sam_a05": "Of course, Detective. I hope you can solve this case soon.",
+                    "sam_q06": "Take a look at this photo, Sam. Do you recognize the children in it?",
+                    "sam_a06": "Yeah, that's Alfred and his brother when they were young. Why do you ask, detective?",
+                    "sam_q07": "I'm just piecing together some information. Thanks for your help, Sam.",
+                    "sam_a07": "Of course, detective. Don't hesitate to ask if you need anything else.",
+                    "sam_q08": "I got my hands on some CCTV footage. Shows someone tinkering with Mr. Sinclair's car the night before the incident.",
+                    "sam_a08": "Oh? May I see that?",
+                    "sam_q09": "Certainly. Here, look at this figure right here. Can you identify them?",
+                    "sam_a09": "That's... that's Alfred! He's been the Sinclair's butler for years.",
+                    "sam_q10": "I suspected as much. Thank you for confirming.",
+                    "sam_a10": "But why would Alfred do something like this? It doesn't make sense."
+                },
+                "messages": {}
+            }
+        },
+        "patrick": {
+            "text_US": {
+                "name": "Officer Patrick Miles",
+                "description": "A robust and seasoned officer in the local police force. He is known for his astute observation skills and is often the first on the crime scene. He is a recurring presence at the Police Station.",
+                "dialogs": {
+                    "patrick_q01": "Good morning, Officer Miles. I received your message about the car. Can you fill me in on the details?",
+                    "patrick_a01": "Detective Sullivan, glad you're here. We've been looking at the brake pedal from Sinclair's car. No clear signs of tampering, but something's off. The wear patterns aren't consistent.",
+                    "patrick_q02": "What do you suggest, Officer Miles?",
+                    "patrick_a02": "We've got a technique that might help us see if someone's interfered with the brake. It involves a Forensic Examination Kit . We're out of it here, but the hospital should have some.",
+                    "patrick_q03": "Hi Patrick, I've used the Forensic Examination Kit on the brake pedal of the vehicle.",
+                    "patrick_a03": "Good work, Olivia. What did you find?",
+                    "patrick_q04": "It seems there might have been some tampering. But I need your expertise to confirm.",
+                    "patrick_a04": "Alright. Let me take a look at your findings.",
+                    "patrick_q05": "While you're checking, any updates on the case?",
+                    "patrick_a05": "Nothing substantial yet, Olivia.",
+                    "patrick_q06": "Well, hopefully this will change that.",
+                    "patrick_a06": "Indeed. Your results suggest tampering. I'll compile this into a report.",
+                    "patrick_q07": "Thanks, Patrick. May I have a copy?",
+                    "patrick_a07": "Absolutely. Here's your copy, Olivia. This might be a crucial piece of evidence.",
+                    "patrick_q08": "Officer Patrick, thanks for getting back to me. You mentioned something about surveillance footage?",
+                    "patrick_a08": "Yes, Detective Sullivan. We managed to pull some footage from a CCTV near the Sinclair mansion. The night before the accident, someone is seen lurking around Mr. Sinclair's car.",
+                    "patrick_q09": "That could be our break in the case. Can I get a copy of that footage?",
+                    "patrick_a09": "Absolutely, I've already had a copy prepared for you. Hope this helps, Detective."
+                },
+                "messages": {
+                    "patrick_m01": "Detective Sullivan, we've gotten some preliminary findings on the Sinclair car. Something's not adding up with the brake pedal. We need you down at the station.",
+                    "patrick_m02": "Detective Johnson, Officer Patrick here. We've just finished reviewing some surveillance footage that might interest you. Swing by the station when you can. It's important."
+                }
+            }
+        },
+        "charlotte": {
+            "text_US": {
+                "name": "Charlotte Williams",
+                "description": "A skilled and empathetic nurse in charge of treating Daniel Reynolds. She often appears exhausted, a result of her tireless efforts to find a cure for Daniel's condition. She has a direct relationship with the Sinclair family through Mr. Sinclair's donations to her hospital.",
+                "dialogs": {
+                    "charlotte_q01": "Good afternoon, I'm Detective Olivia Sullivan. I believe you were informed of my visit?",
+                    "charlotte_a01": "Yes, Detective. I'm Nurse Charlotte Williams. How can I assist you with your investigation?",
+                    "charlotte_q02": "I am investigating the tragic incident involving Mr. Sinclair. Is there anything that you might be aware of that could aid my investigation?",
+                    "charlotte_a02": "I'm afraid I wasn't present during his check-ups, but I can certainly help in providing any hospital-related details or facilitate access to what you need.",
+                    "charlotte_q03": "Great, thank you. Can I have some Forensic Examination Kit to use on a piece of evidence?",
+                    "charlotte_a03": "Sure, Detective. I will need to prepare the solution for you. It might take some time. I will notify you when it's ready.",
+                    "charlotte_q04": "I appreciate it, Nurse Williams. Is there anything else you think I should know?",
+                    "charlotte_a04": "Well, Detective, it might not be directly related to your investigation but Mr. Sinclair's generous donations have been crucial in helping a patient here, a young man named Daniel Reynolds. He's over there, in the corner.",
+                    "charlotte_q05": "Hi, Charlotte. I'm here to pick up the Forensic Examination Kit. Is it ready?",
+                    "charlotte_a05": "Hello, Olivia. Yes, it's ready for you. Here you go.",
+                    "charlotte_q06": "Thank you, Charlotte. I'll let you know if I find anything suspicious with it.",
+                    "charlotte_a06": "Sure thing, Olivia. We're all trying to get to the bottom of this. Good luck with your investigation."
+                },
+                "messages": {
+                    "charlotte_m01": "Detective Sullivan, this is Charlotte from the hospital lab. The Forensic Examination Kit is ready for collection. You can come by anytime to pick it up."
+                }
+            }
+        }
+    },
+    "locations": {
+        "carScene": {
+            "text_US": {
+                "name": "Crash Scene",
+                "description": "The exact spot where Mr. Sinclair's car disastrously veered off course, plunging towards the steep cliff, resulting in his untimely death."
+            }
+        },
+        "coast": {
+            "text_US": {
+                "name": "The Coast",
+                "description": "Beautiful, expansive coastal area near the Sinclair mansion, offering breathtaking views of the ocean waves crashing against the shoreline."
+            }
+        },
+        "cottage": {
+            "text_US": {
+                "name": "Mrs. and Mr. Sinclair's Cottage",
+                "description": "A cozy, intimate cottage nestled next to the mansion, cherished by the Sinclairs as a retreat from their grand lifestyle."
+            }
+        },
+        "port": {
+            "text_US": {
+                "name": "The Old Port",
+                "description": "The characterful old port, echoing with tales of maritime adventures and sailors, a cornerstone of the town's history."
+            }
+        },
+        "rosewood": {
+            "text_US": {
+                "name": "Rosewood Ridge",
+                "description": "The heart of the quaint village, Rosewood Ridge, with its bustling market and friendly townsfolk, exudes a unique charm."
+            }
+        },
+        "mansion": {
+            "text_US": {
+                "name": "The Mansion",
+                "description": "The grand Sinclair mansion, an imposing structure of architectural marvel, majestically presiding over the sprawling estate grounds."
+            }
+        },
+        "street": {
+            "text_US": {
+                "name": "Rosewood Street",
+                "description": "A picturesque street in the town, lined with neatly kept homes, gardens, and lively local businesses."
+            }
+        },
+        "cafe": {
+            "text_US": {
+                "name": "Nearby Café",
+                "description": "A charming, local café, emanating warmth and a hint of freshly ground coffee, conveniently situated near the accident scene."
+            }
+        },
+        "townHall": {
+            "text_US": {
+                "name": "Town Hall",
+                "description": "The imposing town hall, a symbol of the town's governance and local community gatherings, standing proud and unyielding."
+            }
+        },
+        "insideTownHall": {
+            "text_US": {
+                "name": "Inside the Town Hall",
+                "description": "The bustling interiors of the town hall, a hub of local governance and community interaction."
+            }
+        },
+        "police": {
+            "text_US": {
+                "name": "Police Station",
+                "description": "The well-ordered local police station, where Detective Olivia Sullivan diligently unravels mysteries with her keen investigative skills."
+            }
+        },
+        "insidePolice": {
+            "text_US": {
+                "name": "Inside the Police",
+                "description": "The official workplace within the police station, brimming with case files, investigative reports, and diligent law enforcers."
+            }
+        },
+        "lisaOffice": {
+            "text_US": {
+                "name": "Lisa's Office",
+                "description": "Lisa Collins' meticulously organized office, nestled within the sprawling mansion, where she manages Mr. Sinclair's estate."
+            }
+        },
+        "sinclairOffice": {
+            "text_US": {
+                "name": "Mr. Sinclair's Office",
+                "description": "Mr. Theodore Sinclair's private sanctuary within the mansion, imbued with his personality, where important business decisions took shape."
+            }
+        },
+        "hospital": {
+            "text_US": {
+                "name": "Hospital",
+                "description": "The efficient local hospital, where Mr. Sinclair was hurriedly taken post-accident, and the initial medical and forensic examinations were conducted."
+            }
+        },
+        "insideHospital": {
+            "text_US": {
+                "name": "Inside the Hospital",
+                "description": "The bustling interiors of the hospital, a beehive of activity, home to the diligent nurse and the devoted Daniel."
+            }
+        },
+        "lobby": {
+            "text_US": {
+                "name": "Mansion's Lobby",
+                "description": "The grand, welcoming space of Mr. Sinclair's palatial mansion, boasting opulence, featuring diverse rooms and intriguing areas."
+            }
+        },
+        "shed": {
+            "text_US": {
+                "name": "Gardening Shed",
+                "description": "Alfred's private space, a well-stocked gardening shed, teeming with tools, seeds, and the aroma of fresh earth."
+            }
+        },
+        "quarters": {
+            "text_US": {
+                "name": "Staff Quarters",
+                "description": "The discreetly located staff quarters, where the mansion's dedicated maids and servants retreat after their diligent service."
+            }
+        },
+        "corridor": {
+            "text_US": {
+                "name": "Upper Level",
+                "description": "The mansion's upper-level corridor, an echoing passage lined with doors, leading to various intriguing rooms and mysteries."
+            }
+        }
+    },
+    "items": {
+        "handkerchief": {
+            "text_US": {
+                "name": "Handkerchief with the letters VS",
+                "description": "A torn handkerchief found at the accident scene with the letters 'VS' embroidered on it."
+            }
+        },
+        "kit": {
+            "text_US": {
+                "name": "Forensic Examination Kit",
+                "description": "A small, labeled bottle filled with a light-blue liquid. Luminol is a chemical that glows blue when it comes in contact with blood, even if it's invisible to the naked eye. Used to detect traces of blood at crime scenes, it can prove invaluable in certain investigations."
+            }
+        },
+        "breakPedal": {
+            "text_US": {
+                "name": "Mr. Sinclair's Car Brake Pedal",
+                "description": "A hefty, metallic brake pedal extracted from the wreckage of Mr. Sinclair's car. It seems unusually worn down, which is odd considering the car's overall well-maintained condition."
+            }
+        },
+        "breakPedalAnalysed": {
+            "text_US": {
+                "name": "Analysed Brake Pedal",
+                "description": "Mr. Sinclair's car's brake pedal, now coated with Luminol. The glowing blue patches reveal the presence of fingerprints - a crucial clue that suggests someone tampered with Mr. Sinclair's car."
+            }
+        },
+        "forensicReport": {
+            "text_US": {
+                "name": "Official Forensic Report",
+                "description": "This is an official document prepared by Officer Patrick Miles. It contains the result of the forensic analysis on the brake pedal of the car involved in the accident. The report concludes that there were indeed traces of tampering, which might suggest a possible foul play."
+            }
+        },
+        "hiddenNote": {
+            "text_US": {
+                "name": "Lisa's Hidden Note",
+                "description": "A hidden note discovered in Lisa Collins' office. The note appears to have been hastily scribbled, detailing the plans for a secret business venture between Lisa and Mrs. Sinclair. The presence of the note and accompanying financial documents suggests that their business dealings were kept hidden from Mr. Sinclair, raising questions about their intentions. The note, though slightly creased from being concealed, is clearly legible and reveals a potential motive for foul play."
+            }
+        },
+        "drink": {
+            "text_US": {
+                "name": "Earl Grey Tea",
+                "description": "A soothing cup of Earl Grey tea, distinct with its citrusy aroma of bergamot. It's perfectly brewed and has a comforting warmth."
+            }
+        },
+        "chair": {
+            "text_US": {
+                "name": "Antique Oak Chair",
+                "description": "An antique chair made of oak, with intricate carvings etched into the wooden frame. Shows signs of aging but still sturdy."
+            }
+        },
+        "spilled": {
+            "text_US": {
+                "name": "Spilled Earl Grey Tea",
+                "description": "A clumsy spill of the warm Earl Grey tea on the antique oak chair. The fragrant aroma of the tea is now diffused into the air."
+            }
+        },
+        "vintageKey": {
+            "text_US": {
+                "name": "Vintage Office Key",
+                "description": "A vintage key made of heavy iron, meant for Mr. Sinclair's office. The rusted edges suggest its age."
+            }
+        },
+        "doorLock": {
+            "text_US": {
+                "name": "Sinclair's office lock",
+                "description": "An old-fashioned door lock on Mr. Sinclair's office door. Requires a vintage key to unlock."
+            }
+        },
+        "correspondence": {
+            "text_US": {
+                "name": "Financial Dispute Correspondence",
+                "description": "A collection of letters found in Sinclair's office, revealing a heated financial dispute between Mr. Sinclair and Alexander Thompson. The escalating tension is evident in the exchanges."
+            }
+        },
+        "photo": {
+            "text_US": {
+                "name": "Old Childhood Photo",
+                "description": "A faded photograph found within a box in Alfred's quarters, featuring two young boys standing by a vintage car. The identity of the children is not immediately recognizable."
+            }
+        },
+        "box": {
+            "text_US": {
+                "name": "Alfred's Mysterious Box",
+                "description": "A secured box found in Alfred's shed. Appears to require a small key to open."
+            }
+        },
+        "secretKey": {
+            "text_US": {
+                "name": "Mysterious Small Key",
+                "description": "An unassuming small key found in Alfred's pocket. Its purpose is not immediately clear."
+            }
+        },
+        "footage": {
+            "text_US": {
+                "name": "Surveillance Footage",
+                "description": "Footage from a surveillance camera, clearly showing a figure next to Sinclair's car on the night before the accident."
+            }
+        },
+        "newspaper": {
+            "text_US": {
+                "name": "Local Newspaper",
+                "description": "A copy of the local newspaper. A specific article mentions Mr. Sinclair's decision to stop his donations."
+            }
+        }
+    },
+    "puzzles": {
+        "puzzle1": {
+            "text_US": {
+                "name": "puzzle1 name",
+                "description": "puzzle1 description"
+            }
+        },
+        "puzzle2": {
+            "text_US": {
+                "name": "puzzle2 name",
+                "description": "puzzle2 description"
+            }
+        }
+    },
+    "adverts": {
+        "text_US": {
+            "puzzle1_a01": "You unlocked Mr. Sinclair's locker...",
+            "puzzle1_a02": "Good Job",
+            "puzzle1_a03": "Good Job"
+        }
+    }
+}

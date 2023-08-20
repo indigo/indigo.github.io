@@ -1,0 +1,100 @@
+{
+    "puzzle1": {
+        "type": "padlock",
+        "solution": "439",
+        "elements": [
+            {
+                "value": "6",
+                "x": 0.1,
+                "y": 0.2
+            },
+            {
+                "value": "2",
+                "x": 0.3,
+                "y": 0.4
+            },
+            {
+                "value": "7",
+                "x": 0.5,
+                "y": 0.6
+            }
+        ],
+        "actions": [
+            {
+                "type": "moveCharacter",
+                "param": [
+                    "sarah",
+                    "lobby"
+                ]
+            },
+            {
+                "type": "setOnLocation",
+                "param": [
+                    "drink",
+                    "lobby"
+                ]
+            },
+            {
+                "type": "setOnLocation",
+                "param": [
+                    "spilled",
+                    "lobby"
+                ]
+            }
+        ]
+    },
+    "puzzle2": {
+        "type": "lever",
+        "solution": "10010",
+        "elements": [
+            {
+                "value": "0",
+                "x": 0.7,
+                "y": 0.8
+            },
+            {
+                "value": "1",
+                "x": 0.9,
+                "y": 0.1
+            },
+            {
+                "value": "1",
+                "x": 0.5,
+                "y": 0.7
+            },
+            {
+                "value": "1",
+                "x": 0.6,
+                "y": 0.7
+            },
+            {
+                "value": "1",
+                "x": 0.61,
+                "y": 0.71
+            }
+        ],
+        "actions": [
+            {
+                "type": "moveCharacter",
+                "param": [
+                    "sarah",
+                    "lobby"
+                ]
+            },
+            {
+                "type": "setOnLocation",
+                "param": [
+                    "drink",
+                    "lobby"
+                ]
+            },
+            {
+                "type": "setOnLocation",
+                "param": [
+                    "spilled",
+                    "lobby"
+                ]
+            }
+        ]
+    }
+}
