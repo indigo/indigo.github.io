@@ -1,0 +1,350 @@
+{
+  "insideTownHall": {
+    "items": {},
+    "navigationOptions": {
+      "townHall": {
+        "x": 0.09,
+        "y": 0.9,
+        "locked": false
+      }
+    }
+  },
+  "shed": {
+    "items": {
+      "secretKey": {
+        "x": 0.1,
+        "y": 0.84,
+        "visible": false
+      },
+      "box": {
+        "x": 0.34,
+        "y": 0.75,
+        "visible": true
+      }
+    },
+    "navigationOptions": {
+      "lobby": {
+        "x": 0.91,
+        "y": 0.9,
+        "locked": false
+      }
+    }
+  },
+  "carScene": {
+    "items": {
+      "handkerchief": {
+        "x": 0.1,
+        "y": 0.75,
+        "visible": true
+      }
+    },
+    "navigationOptions": {
+      "coast": {
+        "x": 0.91,
+        "y": 0.9,
+        "locked": false
+      }
+    }
+  },
+  "coast": {
+    "items": {},
+    "navigationOptions": {
+      "carScene": {
+        "x": 0.24,
+        "y": 0.6,
+        "locked": false
+      },
+      "cottage": {
+        "x": 0.76,
+        "y": 0.47,
+        "locked": false
+      },
+      "port": {
+        "x": 0.91,
+        "y": 0.9,
+        "locked": false
+      }
+    }
+  },
+  "cottage": {
+    "items": {},
+    "navigationOptions": {
+      "coast": {
+        "x": 0.43,
+        "y": 0.9,
+        "locked": false
+      }
+    }
+  },
+  "port": {
+    "items": {},
+    "navigationOptions": {
+      "coast": {
+        "x": 0.55,
+        "y": 0.63,
+        "locked": false
+      },
+      "rosewood": {
+        "x": 0.91,
+        "y": 0.9,
+        "locked": false
+      }
+    }
+  },
+  "rosewood": {
+    "items": {},
+    "navigationOptions": {
+      "port": {
+        "x": 0.09,
+        "y": 0.87,
+        "locked": false
+      },
+      "mansion": {
+        "x": 0.33,
+        "y": 0.63,
+        "locked": false
+      },
+      "street": {
+        "x": 0.91,
+        "y": 0.76,
+        "locked": false
+      },
+      "townHall": {
+        "x": 0.56,
+        "y": 0.9,
+        "locked": false
+      }
+    }
+  },
+  "mansion": {
+    "items": {},
+    "navigationOptions": {
+      "rosewood": {
+        "x": 0.88,
+        "y": 0.9,
+        "locked": false
+      },
+      "lobby": {
+        "x": 0.5,
+        "y": 0.67,
+        "locked": false
+      }
+    }
+  },
+  "street": {
+    "items": {},
+    "navigationOptions": {
+      "rosewood": {
+        "x": 0.15,
+        "y": 0.83,
+        "locked": false
+      },
+      "cafe": {
+        "x": 0.68,
+        "y": 0.73,
+        "locked": false
+      }
+    }
+  },
+  "lobby": {
+    "items": {
+      "chair": {
+        "x": 0.42,
+        "y": 0.82,
+        "visible": true
+      },
+      "drink": {
+        "x": 0.5,
+        "y": 0.8,
+        "visible": true
+      },
+      "spilled": {
+        "x": 0.46,
+        "y": 0.91,
+        "visible": false
+      }
+    },
+    "navigationOptions": {
+      "mansion": {
+        "x": 0.25,
+        "y": 0.7,
+        "locked": false
+      },
+      "shed": {
+        "x": 0.09,
+        "y": 0.9,
+        "locked": false
+      },
+      "quarters": {
+        "x": 0.91,
+        "y": 0.9,
+        "locked": false
+      },
+      "corridor": {
+        "x": 0.76,
+        "y": 0.67,
+        "locked": false
+      }
+    }
+  },
+  "townHall": {
+    "items": {},
+    "navigationOptions": {
+      "rosewood": {
+        "x": 0.09,
+        "y": 0.9,
+        "locked": false
+      },
+      "insideTownHall": {
+        "x": 0.38,
+        "y": 0.77,
+        "locked": false
+      },
+      "police": {
+        "x": 0.91,
+        "y": 0.9,
+        "locked": false
+      }
+    }
+  },
+  "police": {
+    "items": {},
+    "navigationOptions": {
+      "townHall": {
+        "x": 0.09,
+        "y": 0.9,
+        "locked": false
+      },
+      "insidePolice": {
+        "x": 0.53,
+        "y": 0.7,
+        "locked": false
+      },
+      "hospital": {
+        "x": 0.91,
+        "y": 0.9,
+        "locked": false
+      }
+    }
+  },
+  "insidePolice": {
+    "items": {},
+    "navigationOptions": {
+      "police": {
+        "x": 0.09,
+        "y": 0.9,
+        "locked": false
+      }
+    }
+  },
+  "lisaOffice": {
+    "items": {
+      "hiddenNote": {
+        "x": 0.35,
+        "y": 0.69,
+        "visible": false
+      }
+    },
+    "navigationOptions": {
+      "corridor": {
+        "x": 0.91,
+        "y": 0.9,
+        "locked": false
+      }
+    }
+  },
+  "sinclairOffice": {
+    "items": {
+      "correspondence": {
+        "x": 0.22,
+        "y": 0.77,
+        "visible": true
+      }
+    },
+    "navigationOptions": {
+      "corridor": {
+        "x": 0.09,
+        "y": 0.9,
+        "locked": false
+      }
+    }
+  },
+  "hospital": {
+    "items": {},
+    "navigationOptions": {
+      "police": {
+        "x": 0.09,
+        "y": 0.9,
+        "locked": false
+      },
+      "insideHospital": {
+        "x": 0.7,
+        "y": 0.8,
+        "locked": false
+      }
+    }
+  },
+  "insideHospital": {
+    "items": {},
+    "navigationOptions": {
+      "hospital": {
+        "x": 0.09,
+        "y": 0.9,
+        "locked": false
+      }
+    }
+  },
+
+  "quarters": {
+    "items": {},
+    "navigationOptions": {
+      "lobby": {
+        "x": 0.09,
+        "y": 0.9,
+        "locked": false
+      }
+    }
+  },
+  "cafe": {
+    "items": {
+      "newspaper": {
+        "x": 0.61,
+        "y": 0.71,
+        "visible": true
+      }
+    },
+    "navigationOptions": {
+      "street": {
+        "x": 0.09,
+        "y": 0.9,
+        "locked": false
+      }
+    }
+  },
+  "corridor": {
+    "items": {
+      "doorLock": {
+        "x": 0.73,
+        "y": 0.5,
+        "visible": true
+      }
+    },
+    "navigationOptions": {
+      "lisaOffice": {
+        "x": 0.22,
+        "y": 0.5,
+        "locked": false
+      },
+      "sinclairOffice": {
+        "x": 0.73,
+        "y": 0.5,
+        "locked": true
+      },
+      "lobby": {
+        "x": 0.5,
+        "y": 0.9,
+        "locked": false
+      }
+    }
+  }
+}

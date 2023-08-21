@@ -1,0 +1,168 @@
+{
+  "handkerchief": {
+    "onClick": {
+      "actions": [
+        {
+          "type": "getItem",
+          "param": ["handkerchief"]
+        }
+      ]
+    }
+  },
+  "kit": {
+    "onUsed": {
+      "requirements": [
+        {
+          "type": "usedOnItem",
+          "param": ["breakPedal"]
+        }
+      ],
+      "actions": [
+        {
+          "type": "getItem",
+          "param": ["breakPedalAnalysed"]
+        },
+        {
+          "type": "removeItem",
+          "param": ["breakPedal"]
+        },
+        {
+          "type": "removeItem",
+          "param": ["kit"]
+        }
+      ]
+    }
+  },
+  "breakPedal": {},
+  "breakPedalAnalysed": {},
+  "forensicReport": {},
+  "hiddenNote": {
+    "onClick": {
+      "actions": [
+        {
+          "type": "getItem",
+          "param": ["hiddenNote"]
+        }
+      ]
+    }
+  },
+  "drink": {
+    "onClick": {
+      "actions": [
+        {
+          "type": "getItem",
+          "param": ["drink"]
+        }
+      ]
+    },
+    "onUsed": {
+      "requirements": [
+        {
+          "type": "usedOnItem",
+          "param": ["chair"]
+        }
+      ],
+      "actions": [
+        {
+          "type": "moveCharacter",
+          "param": ["sarah", "lobby"]
+        },
+        {
+          "type": "setOnLocation",
+          "param": ["drink", "lobby"]
+        },
+        {
+          "type": "setOnLocation",
+          "param": ["spilled", "lobby"]
+        },
+        {
+          "type": "advert",
+          "param": ["items", "drink", "drink_a01"]
+        }
+      ]
+    }
+  },
+  "chair": {},
+  "spilled": {},
+  "vintageKey": {
+    "onUsed": {
+      "requirements": [
+        {
+          "type": "usedOnItem",
+          "param": ["doorLock"]
+        }
+      ],
+      "actions": [
+        {
+          "type": "unlock",
+          "param": ["corridor", "sinclairOffice"]
+        },
+        {
+          "type": "removeFromLocation",
+          "param": ["doorLock", "corridor"]
+        },
+        {
+          "type": "advert",
+          "param": ["items", "vintageKey", "vintageKey_a01"]
+        }
+      ]
+    }
+  },
+  "doorLock": {},
+  "correspondence": {
+    "onClick": {
+      "actions": [
+        {
+          "type": "getItem",
+          "param": ["correspondence"]
+        }
+      ]
+    }
+  },
+  "photo": {},
+  "box": {
+    "onClick": {
+      "actions": [
+        {
+          "type": "puzzle",
+          "param": ["puzzle1"]
+        }
+      ]
+    }
+  },
+  "secretKey": {
+    "onClick": {
+      "actions": [
+        {
+          "type": "getItem",
+          "param": ["secretKey"]
+        }
+      ]
+    },
+    "onUsed": {
+      "requirements": [
+        {
+          "type": "usedOnItem",
+          "param": ["box"]
+        }
+      ],
+      "actions": [
+        {
+          "type": "getItem",
+          "param": ["photo"]
+        }
+      ]
+    }
+  },
+  "footage": {},
+  "newspaper": {
+    "onClick": {
+      "actions": [
+        {
+          "type": "getItem",
+          "param": ["newspaper"]
+        }
+      ]
+    }
+  }
+}
