@@ -385,9 +385,9 @@
         "description": "A hefty, metallic brake pedal extracted from the wreckage of Mr. Sinclair's car. It seems unusually worn down, which is odd considering the car's overall well-maintained condition."
       }
     },
-    "breakPedalAnalysed": {
+    "breakPedalAnalyzed": {
       "text_US": {
-        "name": "Analysed Brake Pedal",
+        "name": "Analyzed Brake Pedal",
         "description": "Mr. Sinclair's car's brake pedal, now coated with Luminol. The glowing blue patches reveal the presence of fingerprints - a crucial clue that suggests someone tampered with Mr. Sinclair's car."
       }
     },
