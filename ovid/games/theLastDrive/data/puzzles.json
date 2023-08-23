@@ -17,7 +17,7 @@
       "actions": [
         {
           "type": "advert",
-          "param": ["puzzles", "puzzle1", "puzzle1_a01"]
+          "param": ["puzzle1_a01"]
         }
       ]
     }
@@ -30,14 +30,7 @@
       { "value": "2", "x": 0, "y": -25 },
       { "value": "7", "x": 60, "y": -25 }
     ],
-    "onComplete": {
-      "actions": [
-        {
-          "type": "advert",
-          "param": ["puzzles", "puzzle2", "puzzle2_a01"]
-        }
-      ]
-    }
+    "onComplete": {}
   },
   "puzzle3": {
     "type": "lever",
@@ -49,14 +42,7 @@
       { "value": "1", "x": 120, "y": -25 },
       { "value": "0", "x": 180, "y": -25 }
     ],
-    "onComplete": {
-      "actions": [
-        {
-          "type": "advert",
-          "param": ["puzzles", "puzzle3", "puzzle3_a01"]
-        }
-      ]
-    }
+    "onComplete": {}
   },
   "puzzle4": {
     "type": "jigsaw",
@@ -67,13 +53,6 @@
       { "value": "3", "x": -60, "y": 35 },
       { "value": "4", "x": 0, "y": 35 }
     ],
-    "onComplete": {
-      "actions": [
-        {
-          "type": "advert",
-          "param": ["puzzles", "puzzle4", "puzzle4_a01"]
-        }
-      ]
-    }
+    "onComplete": {}
   }
 }

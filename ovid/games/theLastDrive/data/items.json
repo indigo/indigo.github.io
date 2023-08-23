@@ -19,16 +19,20 @@
       ],
       "actions": [
         {
-          "type": "getItem",
-          "param": ["breakPedalAnalysed"]
-        },
-        {
           "type": "removeItem",
           "param": ["breakPedal"]
         },
         {
           "type": "removeItem",
           "param": ["kit"]
+        },
+        {
+          "type": "getItem",
+          "param": ["breakPedalAnalysed"]
+        },
+        {
+          "type": "advert",
+          "param": ["kit_a01"]
         }
       ]
     }
@@ -77,7 +81,7 @@
         },
         {
           "type": "advert",
-          "param": ["items", "drink", "drink_a01"]
+          "param": ["drink_a01"]
         }
       ]
     }
@@ -103,7 +107,11 @@
         },
         {
           "type": "advert",
-          "param": ["items", "vintageKey", "vintageKey_a01"]
+          "param": ["vintageKey_a01"]
+        },
+        {
+          "type": "removeItem",
+          "param": ["vintageKey"]
         }
       ]
     }
@@ -150,6 +158,10 @@
         {
           "type": "getItem",
           "param": ["photo"]
+        },
+        {
+          "type": "removeItem",
+          "param": ["secretKey"]
         }
       ]
     }

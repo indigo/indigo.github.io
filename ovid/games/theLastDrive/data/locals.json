@@ -370,124 +370,103 @@
     "handkerchief": {
       "text_US": {
         "name": "Handkerchief with the letters VS",
-        "description": "A torn handkerchief found at the accident scene with the letters 'VS' embroidered on it.",
-        "adverts": {}
+        "description": "A torn handkerchief found at the accident scene with the letters 'VS' embroidered on it."
       }
     },
     "kit": {
       "text_US": {
         "name": "Forensic Examination Kit",
-        "description": "A small, labeled bottle filled with a light-blue liquid. Luminol is a chemical that glows blue when it comes in contact with blood, even if it's invisible to the naked eye. Used to detect traces of blood at crime scenes, it can prove invaluable in certain investigations.",
-        "adverts": {}
+        "description": "A small, labeled bottle filled with a light-blue liquid. Luminol is a chemical that glows blue when it comes in contact with blood, even if it's invisible to the naked eye. Used to detect traces of blood at crime scenes, it can prove invaluable in certain investigations."
       }
     },
     "breakPedal": {
       "text_US": {
         "name": "Mr. Sinclair's Car Brake Pedal",
-        "description": "A hefty, metallic brake pedal extracted from the wreckage of Mr. Sinclair's car. It seems unusually worn down, which is odd considering the car's overall well-maintained condition.",
-        "adverts": {}
+        "description": "A hefty, metallic brake pedal extracted from the wreckage of Mr. Sinclair's car. It seems unusually worn down, which is odd considering the car's overall well-maintained condition."
       }
     },
     "breakPedalAnalysed": {
       "text_US": {
         "name": "Analysed Brake Pedal",
-        "description": "Mr. Sinclair's car's brake pedal, now coated with Luminol. The glowing blue patches reveal the presence of fingerprints - a crucial clue that suggests someone tampered with Mr. Sinclair's car.",
-        "adverts": {}
+        "description": "Mr. Sinclair's car's brake pedal, now coated with Luminol. The glowing blue patches reveal the presence of fingerprints - a crucial clue that suggests someone tampered with Mr. Sinclair's car."
       }
     },
     "forensicReport": {
       "text_US": {
         "name": "Official Forensic Report",
-        "description": "This is an official document prepared by Officer Patrick Miles. It contains the result of the forensic analysis on the brake pedal of the car involved in the accident. The report concludes that there were indeed traces of tampering, which might suggest a possible foul play.",
-        "adverts": {}
+        "description": "This is an official document prepared by Officer Patrick Miles. It contains the result of the forensic analysis on the brake pedal of the car involved in the accident. The report concludes that there were indeed traces of tampering, which might suggest a possible foul play."
       }
     },
     "hiddenNote": {
       "text_US": {
         "name": "Lisa's Hidden Note",
-        "description": "A hidden note discovered in Lisa Collins' office. The note appears to have been hastily scribbled, detailing the plans for a secret business venture between Lisa and Mrs. Sinclair. The presence of the note and accompanying financial documents suggests that their business dealings were kept hidden from Mr. Sinclair, raising questions about their intentions. The note, though slightly creased from being concealed, is clearly legible and reveals a potential motive for foul play.",
-        "adverts": {}
+        "description": "A hidden note discovered in Lisa Collins' office. The note appears to have been hastily scribbled, detailing the plans for a secret business venture between Lisa and Mrs. Sinclair. The presence of the note and accompanying financial documents suggests that their business dealings were kept hidden from Mr. Sinclair, raising questions about their intentions. The note, though slightly creased from being concealed, is clearly legible and reveals a potential motive for foul play."
       }
     },
     "drink": {
       "text_US": {
         "name": "Earl Grey Tea",
-        "description": "A soothing cup of Earl Grey tea, distinct with its citrusy aroma of bergamot. It's perfectly brewed and has a comforting warmth.",
-        "adverts": {
-          "drink_a01": "Drink was spilled on the chair..."
-        }
+        "description": "A soothing cup of Earl Grey tea, distinct with its citrusy aroma of bergamot. It's perfectly brewed and has a comforting warmth."
       }
     },
     "chair": {
       "text_US": {
         "name": "Antique Oak Chair",
-        "description": "An antique chair made of oak, with intricate carvings etched into the wooden frame. Shows signs of aging but still sturdy.",
-        "adverts": {}
+        "description": "An antique chair made of oak, with intricate carvings etched into the wooden frame. Shows signs of aging but still sturdy."
       }
     },
     "spilled": {
       "text_US": {
         "name": "Spilled Earl Grey Tea",
-        "description": "A clumsy spill of the warm Earl Grey tea on the antique oak chair. The fragrant aroma of the tea is now diffused into the air.",
-        "adverts": {}
+        "description": "A clumsy spill of the warm Earl Grey tea on the antique oak chair. The fragrant aroma of the tea is now diffused into the air."
       }
     },
     "vintageKey": {
       "text_US": {
         "name": "Vintage Office Key",
-        "description": "A vintage key made of heavy iron, meant for Mr. Sinclair's office. The rusted edges suggest its age.",
-        "adverts": {
-          "vintageKey_a01": "Mr. Sinclair's office unlocked..."
-        }
+        "description": "A vintage key made of heavy iron, meant for Mr. Sinclair's office. The rusted edges suggest its age."
       }
     },
     "doorLock": {
       "text_US": {
         "name": "Sinclair's office lock",
-        "description": "An old-fashioned door lock on Mr. Sinclair's office door. Requires a vintage key to unlock.",
-        "adverts": {}
+        "description": "An old-fashioned door lock on Mr. Sinclair's office door. Requires a vintage key to unlock."
       }
     },
     "correspondence": {
       "text_US": {
         "name": "Financial Dispute Correspondence",
-        "description": "A collection of letters found in Sinclair's office, revealing a heated financial dispute between Mr. Sinclair and Alexander Thompson. The escalating tension is evident in the exchanges.",
-        "adverts": {}
+        "description": "A collection of letters found in Sinclair's office, revealing a heated financial dispute between Mr. Sinclair and Alexander Thompson. The escalating tension is evident in the exchanges."
       }
     },
     "photo": {
       "text_US": {
         "name": "Old Childhood Photo",
-        "description": "A faded photograph found within a box in Alfred's quarters, featuring two young boys standing by a vintage car. The identity of the children is not immediately recognizable.",
-        "adverts": {}
+        "description": "A faded photograph found within a box in Alfred's quarters, featuring two young boys standing by a vintage car. The identity of the children is not immediately recognizable."
       }
     },
     "box": {
       "text_US": {
         "name": "Alfred's Mysterious Box",
-        "description": "A secured box found in Alfred's shed. Appears to require a small key to open.",
-        "adverts": {}
+        "description": "A secured box found in Alfred's shed. Appears to require a small key to open."
       }
     },
     "secretKey": {
       "text_US": {
         "name": "Mysterious Small Key",
-        "description": "An unassuming small key found in Alfred's pocket. Its purpose is not immediately clear.",
-        "adverts": {}
+        "description": "An unassuming small key found in Alfred's pocket. Its purpose is not immediately clear."
       }
     },
     "footage": {
       "text_US": {
         "name": "Surveillance Footage",
-        "description": "Footage from a surveillance camera, clearly showing a figure next to Sinclair's car on the night before the accident.",
-        "adverts": {}
+        "description": "Footage from a surveillance camera, clearly showing a figure next to Sinclair's car on the night before the accident."
       }
     },
     "newspaper": {
       "text_US": {
         "name": "Local Newspaper",
-        "description": "A copy of the local newspaper. A specific article mentions Mr. Sinclair's decision to stop his donations.",
-        "adverts": {}
+        "description": "A copy of the local newspaper. A specific article mentions Mr. Sinclair's decision to stop his donations."
       }
     }
   },
@@ -495,38 +474,34 @@
     "puzzle1": {
       "text_US": {
         "name": "Mr. Sinclair's locker",
-        "description": "A secret locker located in the shed.",
-        "adverts": {
-          "puzzle1_a01": "You unlocked Mr. Sinclair's locker..."
-        }
+        "description": "A secret locker located in the shed."
       }
     },
     "puzzle2": {
       "text_US": {
         "name": "Padlock",
-        "description": "An old padlock.",
-        "adverts": {
-          "puzzle2_a01": "Good job..."
-        }
+        "description": "An old padlock."
       }
     },
     "puzzle3": {
       "text_US": {
         "name": "Lever",
-        "description": "A super cool lever.",
-        "adverts": {
-          "puzzle3_a01": "Good job..."
-        }
+        "description": "A super cool lever."
       }
     },
     "puzzle4": {
       "text_US": {
         "name": "Jigsaw",
-        "description": "A super cool jigsaw.",
-        "adverts": {
-          "puzzle4_a01": "Good job..."
-        }
+        "description": "A super cool jigsaw."
       }
+    }
+  },
+  "adverts": {
+    "text_US": {
+      "kit_a01": "Break pedal analyzed...",
+      "drink_a01": "Drink was spilled on the chair...",
+      "vintageKey_a01": "Mr. Sinclair's office unlocked...",
+      "puzzle1_a01": "You unlocked Mr. Sinclair's locker..."
     }
   }
 }

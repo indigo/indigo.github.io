@@ -211,6 +211,12 @@
             "type": "hasDialog",
             "param": ["alfred_q13"]
           }
+        ],
+        "actions": [
+          {
+            "type": "gameCompleted",
+            "param": []
+          }
         ]
       }
     }
@@ -499,6 +505,14 @@
           {
             "type": "hasDialog",
             "param": ["sam_q01"]
+          },
+          {
+            "type": "hasDialog",
+            "param": ["sarah_q04"]
+          },
+          {
+            "type": "hasDialog",
+            "param": ["charlotte_q03"]
           }
         ]
       },
@@ -551,6 +565,12 @@
             "type": "hasDialog",
             "param": ["sam_q06"]
           }
+        ],
+        "actions": [
+          {
+            "type": "message",
+            "param": ["patrick", "patrick_m02"]
+          }
         ]
       },
       "sam_q08": {
@@ -591,6 +611,12 @@
           {
             "type": "hasMessage",
             "param": ["patrick_m01"]
+          }
+        ],
+        "actions": [
+          {
+            "type": "getItem",
+            "param": ["breakPedal"]
           }
         ]
       },
@@ -660,6 +686,10 @@
           {
             "type": "hasDialog",
             "param": ["sam_q06"]
+          },
+          {
+            "type": "hasMessage",
+            "param": ["patrick_m02"]
           }
         ]
       },
@@ -724,6 +754,12 @@
             "type": "hasDialog",
             "param": ["sam_q04"]
           }
+        ],
+        "actions": [
+          {
+            "type": "getItem",
+            "param": ["kit"]
+          }
         ]
       },
       "charlotte_q06": {
@@ -732,12 +768,6 @@
           {
             "type": "hasDialog",
             "param": ["charlotte_q05"]
-          }
-        ],
-        "actions": [
-          {
-            "type": "getItem",
-            "param": ["kit"]
           }
         ]
       }
