@@ -28,7 +28,7 @@
         },
         {
           "type": "getItem",
-          "param": ["breakPedalAnalysed"]
+          "param": ["breakPedalAnalyzed"]
         },
         {
           "type": "advert",
@@ -38,7 +38,7 @@
     }
   },
   "breakPedal": {},
-  "breakPedalAnalysed": {},
+  "breakPedalAnalyzed": {},
   "forensicReport": {},
   "hiddenNote": {
     "onClick": {
