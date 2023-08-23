@@ -634,7 +634,7 @@
         "requirements": [
           {
             "type": "hasItem",
-            "param": ["breakPedalAnalysed"]
+            "param": ["breakPedalAnalyzed"]
           }
         ]
       },
