@@ -156,6 +156,18 @@
           {
             "type": "hasItem",
             "param": ["newspaper"]
+          },
+          {
+            "type": "hasItem",
+            "param": ["footage"]
+          },
+          {
+            "type": "hasItem",
+            "param": ["forensicReport"]
+          },
+          {
+            "type": "hasDialog",
+            "param": ["sarah_q13"]
           }
         ]
       },

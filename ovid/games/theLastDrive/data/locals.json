@@ -387,7 +387,7 @@
     },
     "breakPedalAnalyzed": {
       "text_US": {
-        "name": "Analyzed Brake Pedal",
+        "name": "Analysed Brake Pedal",
         "description": "Mr. Sinclair's car's brake pedal, now coated with Luminol. The glowing blue patches reveal the presence of fingerprints - a crucial clue that suggests someone tampered with Mr. Sinclair's car."
       }
     },
@@ -501,7 +501,17 @@
       "kit_a01": "Break pedal analyzed...",
       "drink_a01": "Drink was spilled on the chair...",
       "vintageKey_a01": "Mr. Sinclair's office unlocked...",
-      "puzzle1_a01": "You unlocked Mr. Sinclair's locker..."
+      "puzzle1_a01": "Mr. Sinclair's locker unlocked...",
+      "secretKey_a01": "Old photo discovered..."
+    }
+  },
+  "tutorial": {
+    "text_US": {
+      "character": "Interact with characters by clicking on them to engage in conversations, uncovering new clues and insights.",
+      "message": "Check incoming messages from characters by clicking the message button to view what happened when you were away.",
+      "inventory": "Inspect newly acquired items by clicking on inventory slots to view details of your latest discoveries.",
+      "item": "Collect new items and engage with your surroundings by clicking on elements within the scene.",
+      "navigation": "Explore diverse locations by clicking on navigation buttons to seamlessly travel within the game world."
     }
   }
 }

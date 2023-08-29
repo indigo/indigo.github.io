@@ -9,6 +9,47 @@
       }
     }
   },
+  "lobby": {
+    "items": {
+      "chair": {
+        "x": 0.42,
+        "y": 0.82,
+        "visible": true
+      },
+      "drink": {
+        "x": 0.5,
+        "y": 0.8,
+        "visible": true
+      },
+      "spilled": {
+        "x": 0.46,
+        "y": 0.91,
+        "visible": false
+      }
+    },
+    "navigationOptions": {
+      "mansion": {
+        "x": 0.25,
+        "y": 0.62,
+        "locked": false
+      },
+      "shed": {
+        "x": 0.09,
+        "y": 0.8,
+        "locked": false
+      },
+      "quarters": {
+        "x": 0.85,
+        "y": 0.8,
+        "locked": false
+      },
+      "corridor": {
+        "x": 0.73,
+        "y": 0.57,
+        "locked": false
+      }
+    }
+  },
   "townHall": {
     "items": {},
     "navigationOptions": {
@@ -23,6 +64,63 @@
         "locked": false
       },
       "police": {
+        "x": 0.85,
+        "y": 0.8,
+        "locked": false
+      }
+    }
+  },
+  "rosewood": {
+    "items": {},
+    "navigationOptions": {
+      "port": {
+        "x": 0.09,
+        "y": 0.8,
+        "locked": false
+      },
+      "mansion": {
+        "x": 0.3,
+        "y": 0.61,
+        "locked": false
+      },
+      "street": {
+        "x": 0.85,
+        "y": 0.76,
+        "locked": false
+      },
+      "townHall": {
+        "x": 0.56,
+        "y": 0.8,
+        "locked": false
+      }
+    }
+  },
+
+  "port": {
+    "items": {},
+    "navigationOptions": {
+      "coast": {
+        "x": 0.45,
+        "y": 0.53,
+        "locked": false
+      },
+      "rosewood": {
+        "x": 0.85,
+        "y": 0.8,
+        "locked": false
+      }
+    }
+  },
+  "carScene": {
+    "items": {
+      "handkerchief": {
+        "x": 0.1,
+        "y": 0.75,
+        "visible": true
+      }
+    },
+    "navigationOptions": {
+      "coast": {
         "x": 0.85,
         "y": 0.8,
         "locked": false
@@ -90,47 +188,7 @@
       }
     }
   },
-  "lobby": {
-    "items": {
-      "chair": {
-        "x": 0.42,
-        "y": 0.82,
-        "visible": true
-      },
-      "drink": {
-        "x": 0.5,
-        "y": 0.8,
-        "visible": true
-      },
-      "spilled": {
-        "x": 0.46,
-        "y": 0.91,
-        "visible": false
-      }
-    },
-    "navigationOptions": {
-      "mansion": {
-        "x": 0.25,
-        "y": 0.62,
-        "locked": false
-      },
-      "shed": {
-        "x": 0.09,
-        "y": 0.8,
-        "locked": false
-      },
-      "quarters": {
-        "x": 0.85,
-        "y": 0.8,
-        "locked": false
-      },
-      "corridor": {
-        "x": 0.73,
-        "y": 0.57,
-        "locked": false
-      }
-    }
-  },
+
   "lisaOffice": {
     "items": {
       "hiddenNote": {
@@ -209,46 +267,7 @@
       }
     }
   },
-  "rosewood": {
-    "items": {},
-    "navigationOptions": {
-      "port": {
-        "x": 0.09,
-        "y": 0.8,
-        "locked": false
-      },
-      "mansion": {
-        "x": 0.3,
-        "y": 0.61,
-        "locked": false
-      },
-      "street": {
-        "x": 0.85,
-        "y": 0.76,
-        "locked": false
-      },
-      "townHall": {
-        "x": 0.56,
-        "y": 0.8,
-        "locked": false
-      }
-    }
-  },
-  "port": {
-    "items": {},
-    "navigationOptions": {
-      "coast": {
-        "x": 0.45,
-        "y": 0.53,
-        "locked": false
-      },
-      "rosewood": {
-        "x": 0.85,
-        "y": 0.8,
-        "locked": false
-      }
-    }
-  },
+
   "coast": {
     "items": {},
     "navigationOptions": {
@@ -279,22 +298,7 @@
       }
     }
   },
-  "carScene": {
-    "items": {
-      "handkerchief": {
-        "x": 0.1,
-        "y": 0.75,
-        "visible": true
-      }
-    },
-    "navigationOptions": {
-      "coast": {
-        "x": 0.85,
-        "y": 0.8,
-        "locked": false
-      }
-    }
-  },
+
   "shed": {
     "items": {
       "secretKey": {

@@ -76,10 +76,6 @@
           "param": ["drink", "lobby"]
         },
         {
-          "type": "setOnLocation",
-          "param": ["spilled", "lobby"]
-        },
-        {
           "type": "advert",
           "param": ["drink_a01"]
         }
@@ -128,16 +124,7 @@
     }
   },
   "photo": {},
-  "box": {
-    "onClick": {
-      "actions": [
-        {
-          "type": "puzzle",
-          "param": ["puzzle1"]
-        }
-      ]
-    }
-  },
+  "box": {},
   "secretKey": {
     "onClick": {
       "actions": [
@@ -162,6 +149,10 @@
         {
           "type": "removeItem",
           "param": ["secretKey"]
+        },
+        {
+          "type": "advert",
+          "param": ["secretKey_a01"]
         }
       ]
     }
