@@ -4,10 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="keywords" content="WebGL, shader, three.js, javaScript, example, 2D">
-<meta name="description" content="cursor shader example">
+<meta name="description" content="heart shader example">
 <meta name="author" content="Richard Rispoli">
 
-<title>cursor shader example</title>
+<title>heart shader example</title>
 
 <link rel="icon" type="image/x-icon" href="/favicon.ico">
 
@@ -24,7 +24,7 @@
 	<!-- Navigation bar -->
 	<header class="nav-container">
 		<h1 class="nav-header">
-			<a href="/index.html" class="nav-item is-header-item">cursor</a>
+			<a href="/index.html" class="nav-item is-header-item">heart</a>
 		</h1>
 
 		<nav class="nav-menu-wrapper">
@@ -32,9 +32,9 @@
 
 			<ul class="nav-menu-list">
 				<li><a href="/index.html" class="nav-item">Back to list</a></li>
-				<li><a href="/js/shader-example-evolve.js" class="nav-item">JavaScript file</a></li>
-				<li><a href="/shaders/vert-filters.glsl" class="nav-item">Vertex shader</a></li>
-				<li><a href="/shaders/frag-cursor.glsl" class="nav-item">Fragment shader</a></li>
+				<li><a href="/js/shader-example-2d.js" class="nav-item">JavaScript file</a></li>
+				<li><a href="/shaders/vert-2d.glsl" class="nav-item">Vertex shader</a></li>
+				<li><a href="/shaders/heart.glsl" class="nav-item">Fragment shader</a></li>
 			</ul>
 
 			<ul class="nav-menu-list">
@@ -55,16 +55,10 @@
 
 		<script type="x-shader/x-vertex" id="vertexShader">
 #define GLSLIFY 1
-// Texture varyings
-varying vec2 v_uv;
-
 /*
  * The main program
  */
 void main() {
-    // Calculate the varyings
-    v_uv = uv;
-
     // Vertex shader output
     gl_Position = vec4(position, 1.0);
 }
@@ -72,46 +66,32 @@ void main() {
 		</script>
 
 		<script type="x-shader/x-fragment" id="fragmentShader">
+precision mediump float;
 #define GLSLIFY 1
-// Common uniforms
+
 uniform vec2 u_resolution;
-uniform vec2 u_mouse;
-uniform float u_time;
-uniform float u_frame;
 
-// Texture uniforms
-uniform sampler2D u_texture;
-
-// Texture varyings
-varying vec2 v_uv;
-
-/*
- * Returns a value between 1 and 0 that indicates if the pixel is inside the circle
- */
-float circle(vec2 pixel, vec2 center, float radius) {
-    return 1.0 - smoothstep(radius - 1.0, radius + 1.0, length(pixel - center));
+vec3 heart(vec2 p, float scale, vec3 heart_color) {
+    p = 10. * p / scale;
+    p.y += .6;
+    float k = 1.2 * p.y - sqrt(abs(p.x) + .3);
+    float brightness = 1. - ( (p.x * p.x + k * k - 1.) < 0. ? 0. : 1.);
+    return brightness * heart_color;
 }
 
-/*
- * The main program
- */
-void main() {
-    // Get the pixel color
-    vec3 pixel_color = texture2D(u_texture, v_uv).rgb;
+void main(){
+    // Normalized pixel coordinates
+    vec2 uv = (gl_FragCoord.xy / u_resolution) - .5;
+    uv.x = uv.x * u_resolution.x / u_resolution.y;
 
-	// Draw a circle at the mouse position
-    float circle_radius = 50.0;
-    vec3 circle_color = vec3(0.5, 0.5, 0.8) + vec3(0.3 * cos(u_time), 0.3 * sin(1.3 *u_time), 0.2 * cos(2.7 *u_time));
-    float mix_factor = 0.8 * circle(gl_FragCoord.xy, u_mouse, circle_radius);
-    pixel_color = mix(pixel_color, circle_color, mix_factor);
-
-	// Fragment shader output
-	gl_FragColor = vec4(pixel_color, 1.0);
+    vec3 col = heart(uv, 1.,vec3(0.8,0.,0.));
+    vec3 background = vec3(.1);
+    gl_FragColor = vec4(col + background, 1.0);
 }
 
 		</script>
 
-		<script type="text/javascript" src="/js/shader-example-evolve.js"></script>
+		<script type="text/javascript" src="/js/shader-example-2d.js"></script>
 	</article>
 	</main>
 </body>
