@@ -1,156 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="keywords" content="WebGL, shader, three.js, javaScript, examples">
-<meta name="description" content="Things I do, things I like">
-<meta name="author" content="Richard Rispoli">
-
-<title>Richard Rispoli</title>
-
-<link rel="icon" type="image/x-icon" href="/favicon.ico">
-
-<!-- CSS files -->
-<link rel="stylesheet" href="/css/styles.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="WebGL, shader, three.js, javaScript, examples">
+    <meta name="description" content="Things I do, things I like">
+    <meta name="author" content="Richard Rispoli">
+    <title>Richard Rispoli - Creative Developer</title>
+    <style>
+        html { background: #000; }
+    </style>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <script type="module" crossorigin src="/assets/index-OtqN4aDy.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-C9tdlY88.css">
 </head>
 <body>
-	<!-- Navigation bar -->
-	<header class="nav-container">
-		<h1 class="nav-header">
-			<a href="/index.html" class="nav-item is-header-item">Richard Rispoli</a>
-		</h1>
+    <!-- Navigation bar -->
+    <header class="nav-container">
+        <h1 class="nav-header">
+            <a href="/index.html" class="nav-item is-header-item">Richard Rispoli</a>
+        </h1>
 
-		<nav class="nav-menu-wrapper">
-			<span class="nav-item is-menu-item menu-icon" onclick="return false;"></span>
+        <nav class="nav-menu-wrapper">
+            <span class="nav-item is-menu-item menu-icon" onclick="return false;"></span>
 
-			<ul class="nav-menu-list">
-			</ul>
+            <ul class="nav-menu-list">
+            </ul>
 
-			<ul class="nav-menu-list">
-				<li><a href="/about.html" class="nav-item">About</a></li>
-				<li><a href="c" class="nav-item"><span class="github-icon"></span>
-						Github</a></li>
-			</ul>
-		</nav>
-	</header>
+            <ul class="nav-menu-list">
+                <li><a href="/about.html" class="nav-item">About</a></li>
+                <li><a href="c" class="nav-item"><span class="github-icon"></span>
+                        Github</a></li>
+            </ul>
+        </nav>
+    </header>
 
-	<!-- Main content -->
-	<main class="main-container">
-	<article class="content">
-		<header>
-			<h2>
-				Things I do, things I like<br /> <small>by <a href="https://www.b2tgame.com">Richard Rispoli</a></small>
-			</h2>
-		</header>
+    <!-- Main content -->
+    <main class="main-container">
+        <article class="content">
+            <header>
+                <h2>
+                    WebGL Shaders<br />
+                    <small>by <a href="https://www.b2tgame.com">Richard Rispoli</a></small>
+                </h2>
+            </header>
 
-		<div class="example-list">
-			<nav>
-				<header>
-					<h3>2D examples:</h3>
-				</header>
+            <div class="shader-grid">
+                <!-- Shader cards will be dynamically added here -->
+            </div>
+        </article>
+    </main>
 
-				<ul>
-					<li><a href="/random-example.html">Random pixels</a></li>
-					<li><a href="/heart-example.html">Heart</a></li>
-					<li><a href="/noise-example.html">Classic 2D noise</a></li>
-					<li><a href="/rain-example.html">Rain drops</a></li>
-					<li><a href="/tile-example.html">Geometric tile</a></li>
-				</ul>
-			</nav>
-
-			<nav>
-				<header>
-					<h3>3D examples:</h3>
-				</header>
-
-				<ul>
-					<li><a href="/wave-example.html">Cosine wave</a></li>
-					<li><a href="/pencil-example.html">Pencil shading</a></li>
-					<li><a href="/dots-example.html">Dot shading</a></li>
-					<li><a href="/toon-example.html">Toon shading</a></li>
-					<li><a href="/stripes-example.html">Stripes</a></li>
-				</ul>
-			</nav>
-
-			<nav>
-				<header>
-					<h3>Image manipulation examples:</h3>
-				</header>
-
-				<ul>
-					<li><a href="/edge-example.html">Edge detection</a></li>
-					<li><a href="/blur-example.html">Gaussian blur</a></li>
-					<li><a href="/pixels-example.html">Pixelated</a></li>
-					<li><a href="/lens-example.html">Lens effect</a></li>
-				</ul>
-			</nav>
-
-			<nav>
-				<header>
-					<h3>Simulation examples:</h3>
-				</header>
-
-				<ul>
-					<li><a href="/gravity-example.html">Gravity</a></li>
-					<li><a href="/galaxies-example.html">Interacting galaxies</a></li>
-					<li><a href="/repulsion-example.html">Repulsion</a></li>
-					<li><a href="/stippling-example.html">Stippling</a></li>
-					<li><a href="/dla-example.html">Diffusion-limited aggregation</a></li>
-				</ul>
-			</nav>
-
-			<nav>
-				<header>
-					<h3>Post-processing examples:</h3>
-				</header>
-
-				<ul>
-					<li><a href="/badtv-example.html">Bad TV</a></li>
-					<li><a href="/pixelated-example.html">Pixelated</a></li>
-					<li><a href="/cuts-example.html">Cuts</a></li>
-					<li><a href="/rgb-example.html">RGB shift</a></li>
-				</ul>
-			</nav>
-
-			<nav>
-				<header>
-					<h3>Evolution examples:</h3>
-				</header>
-
-				<ul>
-					<li><a href="/fire-example.html">Fire</a></li>
-					<li><a href="/flare-example.html">Flaring star</a></li>
-					<li><a href="/cursor-example.html">Cursor draw</a></li>
-					<li><a href="/reaction-example.html">Reaction-diffusion</a></li>
-					<li><a href="/sort-example.html">Pixel sorting</a></li>
-				</ul>
-			</nav>
-
-			<nav>
-				<header>
-					<h3>Vertex manipulation examples:</h3>
-				</header>
-
-				<ul>
-					<li><a href="/deform-example.html">Deformation</a></li>
-					<li><a href="/attraction-example.html">Attraction</a></li>
-					<li><a href="/mountains-example.html">Infinite landscape</a></li>
-					<li><a href="/sphere-example.html">Alien sphere</a></li>
-				</ul>
-			</nav>
-		</div>
-	</article>
-	</main>
-
-	<!-- Footer -->
-	<footer class="footer-container">
-		<div class="footer-content">
-			<p>
-				Hand made in Montréal. <span class="separator">///</span> Unless otherwise stated, all the content in this site is
-				licensed under a Creative Commons Attribution-ShareAlike <a href="https://creativecommons.org/licenses/by-sa/4.0/">license</a>.
-			</p>
-		</div>
-	</footer>
+    <!-- Footer -->
+    <footer class="footer-container">
+        <div class="footer-content">
+            <p>
+                Hand made in Montréal. <span class="separator">///</span> Unless otherwise stated, all the content in this site is
+                licensed under a Creative Commons Attribution-ShareAlike <a href="https://creativecommons.org/licenses/by-sa/4.0/">license</a>.
+            </p>
+        </div>
+    </footer>
 </body>
 </html>
