@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music with Robin</title>
+    <style>
+        html { background: #000; }
+    </style>
+  <script type="module" crossorigin src="/assets/modulepreload-polyfill-B5Qt9EMX.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/styles.css">
+</head>
+<body class="example-page">
+    <header class="nav-container">
+        <h1 class="nav-header">
+            <a href="/" class="nav-item is-header-item">Things I do, things I like</a>
+        </h1>
+
+        <nav class="nav-menu-wrapper">
+            <ul class="nav-menu-list">
+                <li><a href="/" class="nav-item">Back to list</a></li>
+                <li><a href="https://github.com/indigo" class="nav-item"><span class="github-icon"></span> Github</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-container">
+        <div class="video-container">
+            <video 
+                id="main-video" 
+                controls 
+                playsinline 
+                preload="metadata"
+                crossorigin="anonymous"
+                style="background: #000;"
+            >
+                <source src="/videos/video_01_web.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </main>
+
+    <style>
+        .video-container {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #000;
+            padding: 60px 0;
+            box-sizing: border-box;
+            position: relative;
+        }
+        
+        #main-video {
+            max-width: 100%;
+            max-height: calc(100vh - 120px);
+            width: auto;
+            height: auto;
+            display: block;
+            opacity: 0;
+            animation: fadeIn 0.5s ease-in forwards;
+            z-index: 1;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+
+    <script>
+        const video = document.getElementById('main-video');
+        
+        // Debug video loading
+        video.addEventListener('loadedmetadata', () => {
+            console.log('Video metadata loaded:', {
+                width: video.videoWidth,
+                height: video.videoHeight,
+                duration: video.duration,
+                readyState: video.readyState,
+                networkState: video.networkState,
+                error: video.error
+            });
+        });
+
+        video.addEventListener('loadeddata', () => {
+            console.log('Video data loaded');
+            // Force repaint
+            video.style.display = 'none';
+            video.offsetHeight; // Force reflow
+            video.style.display = 'block';
+        });
+
+        video.addEventListener('play', () => {
+            console.log('Video started playing');
+        });
+
+        video.addEventListener('error', (e) => {
+            console.error('Video error:', {
+                error: video.error,
+                networkState: video.networkState,
+                readyState: video.readyState
+            });
+        });
+
+        // Try to force video display
+        video.addEventListener('canplay', () => {
+            console.log('Video can play');
+            video.style.visibility = 'visible';
+            video.style.opacity = '1';
+        });
+
+        // Additional debugging
+        window.addEventListener('load', () => {
+            console.log('Initial video state:', {
+                videoElement: video,
+                source: video.querySelector('source').src,
+                readyState: video.readyState,
+                networkState: video.networkState,
+                error: video.error
+            });
+        });
+    </script>
+</body>
+</html>
