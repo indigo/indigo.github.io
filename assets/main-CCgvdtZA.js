@@ -1,7 +1,0 @@
-import{S as d}from"./SceneManager-BZ_Gb5p5.js";import{c}from"./heart-Cg7vNOyN.js";import{c as i}from"./spline-BbVNleG2.js";const o={heart:c,spline:i};document.body.classList.add("loading");window.addEventListener("load",()=>{document.body.classList.remove("loading")});function h(a){const t=a.getAttribute("href");if(t){const e=document.createElement("link");e.rel="prefetch",e.href=t,document.head.appendChild(e)}}function m(){const a=document.querySelector(".shader-grid");a&&Object.entries(o).forEach(([t,e])=>{const r=document.createElement("a");r.className="shader-card",r.href=`/src/examples/${t}.html`,r.innerHTML=`
-            <div id="shader-${t}" class="shader-container"></div>
-            <div class="shader-info">
-                <h3>${e.name}</h3>
-                <p>${e.description}</p>
-            </div>
-        `,r.addEventListener("mouseenter",()=>h(r)),a.appendChild(r);const n=r.querySelector(`#shader-${t}`),s=new d(n,{showGui:!1,showStats:!1,camera:e.camera||"orthographic"});e.vertexShader&&e.fragmentShader?s.setShader(e.vertexShader,e.fragmentShader,e.uniforms):s.setup(e),s.animate()})}if(document.querySelector(".shader-grid"))m();else if(document.getElementById("sketch-container")){const a=window.location.pathname.split("/"),t=a[a.length-1].replace(".html",""),e=o[t];if(e){const r=document.getElementById("sketch-container"),n=new d(r,{showGui:!0,showStats:!0,camera:e.camera||"orthographic"});e.vertexShader&&e.fragmentShader?n.setShader(e.vertexShader,e.fragmentShader,e.uniforms):n.setup(e),n.animate()}}

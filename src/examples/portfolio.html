@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Portfolio</title>
+    <style>
+        html { background: #000; }
+    </style>
+  <script type="module" crossorigin src="/assets/modulepreload-polyfill-B5Qt9EMX.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/styles.css">
+</head>
+<body class="example-page">
+    <header class="nav-container">
+        <h1 class="nav-header">
+            <a href="/" class="nav-item is-header-item">Things I do, things I like</a>
+        </h1>
+
+        <nav class="nav-menu-wrapper">
+            <ul class="nav-menu-list">
+                <li><a href="/" class="nav-item">Back to list</a></li>
+                <li><a href="https://github.com/indigo" class="nav-item"><span class="github-icon"></span> Github</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-container">
+        <div class="portfolio-container">
+            <img src="/images/portfolio.png" alt="Gaming Portfolio" class="portfolio-image">
+        </div>
+    </main>
+
+    <style>
+        .portfolio-container {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #000;
+            padding: 60px 0;
+            box-sizing: border-box;
+        }
+        
+        .portfolio-image {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+            opacity: 0;
+            animation: fadeIn 0.5s ease-in forwards;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</body>
+</html>

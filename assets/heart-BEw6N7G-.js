@@ -1,4 +1,4 @@
-import{C as n}from"./SceneManager-BZ_Gb5p5.js";var r=`void main() {
+import{C as n}from"./SceneManager-BQ4ujJnr.js";var r=`void main() {
     
     gl_Position = vec4(position, 1.0);
 }`,a=`precision mediump float;

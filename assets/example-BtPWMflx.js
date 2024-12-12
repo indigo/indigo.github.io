@@ -1,4 +1,4 @@
-import{S as a}from"./SceneManager-BZ_Gb5p5.js";/* empty css               */const e={name:"Example",description:"Basic WebGL example",camera:"perspective",cameraPosition:[0,0,5],uniforms:{uTime:{value:0},uResolution:{value:[800,600]}},vertexShader:`
+import"./modulepreload-polyfill-B5Qt9EMX.js";/* empty css               */import{S as a}from"./SceneManager-BQ4ujJnr.js";const e={name:"Example",description:"Basic WebGL example",camera:"perspective",cameraPosition:[0,0,5],uniforms:{uTime:{value:0},uResolution:{value:[800,600]}},vertexShader:`
         varying vec2 vUv;
         void main() {
             vUv = uv;
