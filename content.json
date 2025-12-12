@@ -1,0 +1,12 @@
+{
+  "cards": [
+    {
+      "id": "physics",
+      "title": "Physics Collision Demo",
+      "description": "I teach physics simulation at the college level",
+      "image": "/images/Thumbnail_physics.svg",
+      "link": "/src/examples/physics.html",
+      "type": "image"
+    }
+  ]
+}
